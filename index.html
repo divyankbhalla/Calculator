@@ -10,35 +10,36 @@
 <body>
     <div class="container">
         <div class="result">
-            <span>0</span>
+            <span id="result">0</span>
         </div>
 
         <div class="input">
             <div class="row">
-                <p>7</p>
-                <p>8</p>
-                <p>9</p>
-                <p>+</p>
+                <p id="number">7</p>
+                <p id="number">8</p>
+                <p id="number">9</p>
+                <p id="add" onclick="add()">+</p>
             </div>
             <div class="row">
-                <p>4</p>
-                <p>5</p>
-                <p>6</p>
-                <p>-</p>
+                <p id="number">4</p>
+                <p id="number">5</p>
+                <p id="number">6</p>
+                <p id="subtract" onclick="subtract()">-</p>
             </div>
             <div class="row">
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
-                <p>*</p>
+                <p id="number">1</p>
+                <p id="number">2</p>
+                <p id="number">3</p>
+                <p id="multiply" onclick="multiply()">*</p>
             </div>
             <div class="row">
-                <p>0</p>
-                <p>.</p>
-                <p>/</p>
-                <p>=</p>
+                <p id="number">0</p>
+                <p id="decimal">.</p>
+                <p id="divide" onclick="divide()">/</p>
+                <p id="equal" onclick="equal()">=</p>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

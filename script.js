@@ -1,9 +1,16 @@
-let number = document.getElementById("number");
-let decimal = document.getElementById("decimal");
-let result = document.getElementById("result");
+let screen = document.getElementById("screen");
+buttons = document.querySelectorAll('#number');
+let screenValue = "";
 
-
-
-let add = function add(){
-  result.innerHTML += number;
+for(item of buttons){
+    item.addEventListener('click', (e) =>{
+        buttonText = e.target.innerHTML;
+        console.log(buttonText);
+        if(buttonText == '='){
+            screen.innerHTML = eval(screenValue);
+        }else{
+            screenValue += buttonText;
+            screen.innerHTML = screenValue;
+        }
+    })
 }

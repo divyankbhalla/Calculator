@@ -9,22 +9,30 @@ body{
 
 .container{
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: linear-gradient(135deg, hsla(0, 0%, 95%, 1)
                  0%, hsla(0, 0%, 95%, 1) 46%,
                  hsla(357, 95%, 46%, 1) 46%,
                  hsla(357, 95%, 46%, 1) 100%);
     height: 350px;
     width: 180px;
+    padding: 5px;
 }
 
 .result{
     background-color: hsla(357, 95%, 46%, 1);
-    width: 178px;
+    width: 173px;
     height: 75px;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.input{
+    background-color: #fff;
+    width: 173px;
+    height: auto;
 }

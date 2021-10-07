@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(135deg, hsla(0, 0%, 95%, 1)
+    background: linear-gradient(165deg, hsla(0, 0%, 95%, 1)
                  0%, hsla(0, 0%, 95%, 1) 46%,
                  hsla(357, 95%, 46%, 1) 46%,
                  hsla(357, 95%, 46%, 1) 100%);
